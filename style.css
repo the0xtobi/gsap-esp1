@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&family=Orbitron:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.div-1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-2{
+    background: url(avatar-water.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.square{
+    background: url(avatar-earth.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: inherit;
+    position: absolute;
+}
+
+.square-2{
+    height: 100vh;
+    width: inherit;
+    background: url(avatar-fire.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.square-3{
+    height: 100vh;
+    width: inherit;
+    background: url(aang-air.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.end{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
